@@ -1,6 +1,6 @@
 #!/bin/bash
-file_a=qunmenber2013.11.27.txt
-file_b=mxtdb2013.11.27.txt
+file_a=qunmember2013.11.27.txt
+file_b=mxddb2013.11.27.txt
 member_a=`cat $file_a |awk '{print $1}'`
 member_b=`cat $file_b |awk '{print $2}'`
 #echo $member_a;
